@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "diario-escolar-rpa"
+version = "0.1.0"
+description = ""
+authors = ["leandrocoutinho1 <leandro.coutinho@loft.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+pandas = "^2.2.3"
+webdriver-manager = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
